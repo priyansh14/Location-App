@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+android:background="#fff"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/locbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-black"
+        android:text="  Show   Location  "
+        android:textColor="#fff"
+        android:textStyle="bold"
+
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="120dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="	#be3164"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tv1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="	#be3164"
+            android:id="@+id/tv2"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="	#be3164"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"
+            android:id="@+id/tv3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="	#be3164"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"
+            android:id="@+id/tv4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"
+            android:textColor="	#be3164"
+
+            android:id="@+id/tv5"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
